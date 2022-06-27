@@ -1,0 +1,57 @@
+li{
+	 /* цвет фона*/
+	background: #444;
+	 /* цвет текста*/
+	color: #fff;
+	 /* блочный элмент, который обтекается*/
+	display:inline-block;
+	/* ширина блока*/
+	width: 300px;
+	/* размер шрифта, шрифт, */
+	font: 30px Times, serif;
+	/* выравнивание текста*/
+	text-align: center;
+	/* отступ внутренний*/
+	padding: 10px;
+}
+
+ul{
+	/* цвет фона*/
+	background: #444;
+}
+
+.dropdown {
+}
+
+.dropdown-content {
+	/* не отображаться*/
+    display: none;
+	/* позиционирование*/
+    position: absolute;
+	 /* цвет фона*/
+    background: #444;
+	/* ширина блока*/
+    width: 300px;
+	/* отступ внутренний*/
+	padding: 10px;
+	/* отступ внешний*/
+	margin-left:-10px;
+}
+
+.dropdown-content a {
+	/* цвет текста*/
+    color: #fff;
+	/*отключение подчеркиваний*/
+    text-decoration: none;
+	/* блочное отображение */
+    display: block;
+}
+/* при наведении на элемент меняет цвет*/
+.dropdown-content a:hover {
+	background-color: #333;
+	}
+	
+/* включить блочное отображение элементов*/
+.dropdown:hover .dropdown-content {
+	display: block;
+	}
